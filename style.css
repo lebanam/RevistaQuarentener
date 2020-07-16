@@ -3,22 +3,27 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 0px-150px;
-        color: white;
+        color: rgb(0, 0, 0);
         padding: 15px;
         margin-bottom: 20px;
+        font-family: Snell Roundhand, cursive;
+        text-shadow: 3px 1px 0px #222a46;
+    
+        text-shadow: 
+		 0px -1px 5px #eeeeee,     /* north      */
+		 0px  1px 5px #eeeeee,     /* south      */
+		-1px  0px 5px #eeeeee,     /* west       */
+		 1px  0px 5px #eeeeee,     /* east       */
+		-1px -1px 5px #eeeeee,     /* north-west */
+		-1px  1px 5px #eeeeee,     /* north-east */
+		 1px -1px 5px #eeeeee,     /* south-west */
+		 1px  1px 5px #eeeeee;     /* south-east */
              
 }
    
 .header_area{
     padding: 20px;
     margin: 0px;
-}
-.card-text p
-{   padding: 10px;
-    color: rgb(241, 30, 30) !important; 
-    align-self: center;
-    text-align: justify;
-    
 }
 
 body{
@@ -36,7 +41,7 @@ body{
 /* altera cada componete do menu*/
 .memu_area nav a{
     background-color: #5e2c8d;
-    color:white;
+    color:rgb(0, 0, 0);
     margin-bottom: 10px; 
     margin: 20px;
 }
@@ -45,47 +50,16 @@ body{
     background-color: #e767d6;
 }
 
-/*#txtPesquisa{
-    margin-left: 50ex;
-    margin-bottom: 1rem;
-}*/
-
 .logo{
     width: 180px;
     
 } 
-.pesquisa{    
-    margin-bottom: 10px;
-}  
+
 .centralizar{
     display: flex;
     justify-content: center;
 }
 
-
-/* Regras do Componente box-noticia */
-.box-noticia {
-    margin: 10px 0px;
-    overflow: auto;
-    color: black;
-    clear: both;
-    text-align: justify;
-}
-
-.box-noticia img {
-    float: left;
-    margin-right: 10px;
-    width: 200px;
-}
-
-.box-noticia .titulo {
-    font-weight: 800;
-   
-}
-
-.box-noticia .creditos {
-    color:rgba(255, 51, 0, 0.829)
-}
 
 .carousel-caption h1{
 
@@ -105,18 +79,19 @@ body{
     padding-left: 2em;
     padding-right: 20px;
     padding-bottom: 1em;
-    margin-left: 4em;
-    margin-right: em;
-    
 }
+
 
 .circle {
     background-color: #e767d6;
     border-radius: 50%;
     width: 60px;
     height: 60px;
+    margin-right: 1em;
+    margin-left: 1em;
     overflow: hidden;
     position: relative;
+    display: inline-block;
   }
   
   .circle img {
@@ -128,8 +103,15 @@ body{
 p{
     text-align: justify;
 }
+h6{
+    text-align: justify;
+}
 
-
+.box {
+    background-color: #f596ea;
+    position: relative;
+    
+}
 .card-title
 {
     color: #e69226;

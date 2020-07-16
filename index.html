@@ -4,7 +4,7 @@
     <meta    name="viewport"
     content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta charset="UTF-8"/>
-<title>Revista Digital</title>
+<title>Diário das Quarentener's</title>
 <link
 rel="stylesheet"
 href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -18,20 +18,23 @@ src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
 crossorigin="anonymous"
 ></script>
+<link rel="stylesheet" type="text/css" href="stiloslide.css" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic" type="text/css" />
 </head>
 <body>
+     <!-- Menu -->
     <header class="container header">
         <div class="row">
             <div class="col-12 header_area">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-2">
-                        <img src="imagens/capa.jpg" class="logo" />
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-sm-center ">
+                        <a href = #quemSomos Alt = "Quem Somos">
+                        <img src="imagens/capa.jpg" class=".logo" ></a>
                     </div>
                     <div
-                    class="col-12 col-sm-12 col-md-8 col-lg-10 memu_area"
-                >
-                <h1>DIÁRIO DE QUARENTENER'S</h1>   
-                <h3>Uma Revista Digital</h3>
+                    class="col-12 col-sm-12 col-md-12 col-lg-12 text-sm-center memu_area">
+                <h1>DIÁRIO DAS QUARENTENER'S</h1>   
+                <h4>Assuntos diversos para pessoas confinadas</h4>
                     <nav class="nav nav-pills flex-column flex-sm-row">
                         <a
                             class="flex-sm-fill text-sm-center nav-link"
@@ -61,19 +64,41 @@ crossorigin="anonymous"
     </header>
     <main class="container main">
     <div class="row">
-        <!-- Conteúdo -->
+
+        <!-- Categorias -->
         <div>
-                <div class = "circle">
+            <h5>Categorias:</h5>
+                <div class="circle">
                     <a href="receitas.html" title="Receitas">
-                        <img src="imagens/categoria-receita.png" alt="Receitas">
-                        <figcaption>Receitas </figcaption>
-                    </a> 
+                       <img src="imagens/categoria-receita.png" alt="Receitas"></a>
+                        <span>Receitas</span>
+                    </div>
+
+                    <div class="circle">
+                    <a href="dicas.html" title="Dicas">
+                        <img src="imagens/categoria-dicas.png" alt="Dicas"></a>
+                    <span>Dicas</span>
                 </div>
+                <div class="circle">
+                    <a href="artes.html" title="Dicas">
+                        <img src="imagens/categoria-arte.png" alt="Arte"></a>
+                    <span>Arte</span>
+                </div>
+                
+                <div class="circle">
+                    <a href="saude.html" title="Saúde">
+                        <img src="imagens/categoria-saude.png" alt="Saúde"></a>
+                    <span>Saúde</span>
+                </div>
+            
+               
             <h2>Edição 01 - Julho 2020</h2>
+
+              <!-- Carousel -->
             <main class="container main">
                 <div class="row">
                     <div class="col-12">
-                        <!--Coluna do carrosel -->
+                        
                         <div class="row main_area centralizar">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-8">
                                 <div
@@ -131,45 +156,60 @@ crossorigin="anonymous"
                 </div>
             </main>
 
-           
-            <div>
+           <!-- Quem Somos -->
+            <div class = box>
                 <h2><a id="quemSomos"></a>Quem Somos</h2>
                 <h5>HILDA</h5>
                 <div class="circle">
-                    <img src="imagens/perfil_hilda.png" alt="">
+                    <img src="imagens/perfil_hilda.png" alt="@doquinha.br">
                 </div>
+                <span>
                     <h6>
-                       Estudante de letras, que gosta de escrever sobre literatura e receitas.
-                       Adora boas histórias e tem sempre algo novo a ensinar.
+                       Estudante de letras, que gosta de escrever sobre literatura e receitas. <br/>
+                       Adora boas histórias e tem sempre algo novo a ensinar.<br/>
+                       Insta: <a href = "https://www.instagram.com/doquinha.br/" target="_blank">@doquinha.br</a>
                     </h6>
-                
+                </span>
                 <h5>TÁBITA</h5>
                 <div class="circle">
                     <img src="imagens/perfil_tabita.png" alt="">
                 </div>
                     <h6>
-                        Jornalista e publicitária. Dona de ideias incríveis, atuou em jornais como EPTV, estado de minas
+                        Jornalista e publicitária. Dona de muitas ideias, <br/>
+                        atuou em jornais como EPTV, Estado de Minas<br/>
+                        Insta: <a href = "https://www.instagram.com/oi_tabita/" target="_blank">@oi_tabita</a>
                     </h6>
                 <h5>SÂMELA</h5>
                 <div class="circle">
                     <img src="imagens/perfil_samela.png" alt="">
                 </div>
                     <h6>
-                        estudante de artes visuais e direito.
-                        Gosta de escrever sobre técnicas de arte, um pouco sobre cultura, lazer e arte.
+                        Estudante de artes visuais e direito.<br/>
+                        Gosta de escrever sobre técnicas de arte, um pouco sobre cultura, lazer e arte.<br/>
+                        Insta: <a href = "https://www.instagram.com/sammartini.sm/" target="_blank">@sammartini.sm</a>
                     </h6>
+                    
                 <h5>LEBANA</h5>
+                
                 <div class="circle">
                     <img src="imagens/perfil_lebana.png" alt="">
                 </div>
+                <p>
                     <h6>
-                      Engenharia de software, desenvolvedora da plataforma revista digial e cantora nas horas vagas
+                      Estudante de Engenharia de software, <br/>
+                      desenvolvedora e cantora nas horas vagas.<br/>
+                      Insta: <a href = "https://www.instagram.com/lebana.m/" target="_blank">@lebana.m</a>
+                            <a href = "index.html">
+                                <img src="imagens/seta_up.png" width="50" height="50" align="right" alt="Voltar ao Topo">
+                        </a>
                     </h6>
-
-        </div>
+                </p>
+                </div>
+            
     </div>
 </main>
 
+<!-- Rodapé -->
 <footer class="container footer">
     <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 footer_area">
