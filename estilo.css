@@ -103,8 +103,12 @@ body{
 p{
     text-align: justify;
 }
-h6{
+h6, h5, h2{
     text-align: justify;
+    margin-left: 1em;
+}
+h2{
+    color: #eeeeee;
 }
 
 .box {
